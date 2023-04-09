@@ -1,0 +1,69 @@
+.card{
+    width: 300px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.card .card-img{
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+    background-color: rgba(152, 194, 211, 0.534);
+}
+.card .card-body{
+    padding: 20px;
+    text-align: start;
+}
+.card-body .ikon{
+    padding: 10px 15px;
+     height: 20px; 
+    background-color: rgba(233, 196, 255, 0.747);
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+.ikon i{
+    color:cornflowerblue
+}
+.card-body span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-body p{
+    color: rgba(0, 0, 255, 0.445);
+}
+.card button{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 8px;
+}
+.card .btn{
+    background-color: rgb(106, 218, 175);
+    margin-right: 10px;
+}
+.card .button{
+    background-color: rgb(95, 95, 235);
+}
+.card .btns{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.card>i{
+    padding: 7px;
+    background-color:#fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;border-radius: 5px;
+}
+.cards{
+    width: 50%;
+    background-color: rgba(169, 169, 169, 0.26);
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
